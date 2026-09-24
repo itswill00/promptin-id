@@ -1,4 +1,4 @@
-# DESIGN.md — Promptin ID (agent-supplied, draft)
+# DESIGN.md - Promptin ID (agent-supplied, draft)
 
 > Warning jujur: arah ini gue yang susun tanpa referensi visual dari lo. Selera bawaan agent cenderung monoton. Anggap ini draft, bukan identitas final.
 

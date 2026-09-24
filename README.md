@@ -1,28 +1,59 @@
 # Promptin ID
 
-Arsip prompt Bahasa Indonesia siap copy. Statis, tanpa login, deploy di Vercel.
+Arsip 200 prompt Bahasa Indonesia siap copy (150 gratis, 50 pro). Statis, tanpa login, deploy di Vercel.
 
 ## Jalankan lokal
 
+Next 14 tidak bisa build di Termux Android (tidak ada binary SWC android-arm64). Typecheck lokal:
+
 ```bash
 npm install
-npm run dev
+node node_modules/typescript/bin/tsc --noEmit
 ```
+
+Dev dan build jalan normal di laptop atau di Vercel.
 
 ## Deploy Vercel
 
 - Framework: Next.js, `output: export`
-- Build command: `npm run build`
-- Output dir: `out`
+- Build command default, tanpa env wajib
+- Tiap push ke `main` auto-deploy bila project terhubung
 
-## Struktur
+## Konfigurasi uang (data/site.json)
 
-- `app/page.tsx` — homepage + grid
-- `components/PromptGrid.tsx` — search, filter, copy
-- `data/prompts.json` — tambah prompt di sini
-- `app/pro/page.tsx` — ganti link Lynk.id
-- `app/tentang`, `app/privasi` — buat AdSense
+Satu file untuk semua yang berbayar. Kosongkan untuk nonaktifkan.
+
+```json
+{
+  "lynkUrl": "https://lynk.id/nama-kamu/produk",
+  "adsensePublisherId": "ca-pub-XXXXXXXXXXXXXXXX",
+  "adSlotTop": "1111111111",
+  "adSlotBottom": "2222222222"
+}
+```
+
+- `lynkUrl` terisi: tombol bayar di halaman Pro aktif. Kosong: tombol disabled bertulis segera.
+- `adsensePublisherId` terisi: script AdSense dimuat dan slot iklan tampil. Kosong: tidak ada yang tampil.
+- `public/ads.txt`: ganti pub-0000000000000000 dengan ID publisher setelah AdSense diterima.
 
 ## Tambah prompt
 
-Edit `data/prompts.json`, push, auto-deploy.
+Tambah objek ke `data/prompts.json`:
+
+```json
+{
+  "id": "jualan-49",
+  "title": "...",
+  "category": "Jualan",
+  "description": "...",
+  "body": "Gunakan [VARIABEL] kapital, tanpa em dash.",
+  "tags": ["..."],
+  "isPro": false
+}
+```
+
+Kategori valid: Jualan, Konten, Skripsi, Ngantor. Angka hero dihitung otomatis dari file ini.
+
+## Domain sendiri
+
+Lihat DOMAIN.md.

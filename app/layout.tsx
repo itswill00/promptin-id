@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import site from '@/data/site.json';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -10,6 +11,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="id">
       <body>
+        {site.adsensePublisherId ? (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.adsensePublisherId}`}
+            crossOrigin="anonymous"
+          />
+        ) : null}
         <header className="border-b bg-white">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
             <a href="/" className="font-bold">Promptin ID</a>

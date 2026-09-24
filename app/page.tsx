@@ -1,5 +1,7 @@
 import prompts from '@/data/prompts.json';
+import site from '@/data/site.json';
 import PromptGrid from '@/components/PromptGrid';
+import AdSlot from '@/components/AdSlot';
 
 export default function Home() {
   const total = prompts.length;
@@ -13,7 +15,9 @@ export default function Home() {
           Untuk seller, afiliator, mahasiswa, dan pekerja. Tanpa login. {free} gratis, {pro} pro.
         </p>
       </section>
+      <AdSlot slot={site.adSlotTop} />
       <PromptGrid items={prompts} />
+      <AdSlot slot={site.adSlotBottom} />
     </div>
   );
 }

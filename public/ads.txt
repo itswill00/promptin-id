@@ -1,0 +1,3 @@
+# ganti baris di bawah dengan ID publisher AdSense kamu setelah diterima.
+# format: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f26547ef
+google.com, pub-0000000000000000, DIRECT, f26547ef
