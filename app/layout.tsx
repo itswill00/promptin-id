@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Promptin ID — 200 Prompt Indonesia Siap Copy',
+  title: 'Promptin ID: Prompt Indonesia Siap Copy',
   description: 'Kumpulan prompt Bahasa Indonesia untuk seller, konten kreator, skripsi, dan kerja kantoran. Gratis, cepat, tanpa login.'
 };
 
