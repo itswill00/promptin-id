@@ -1,0 +1,182 @@
+[
+  {
+    "id": "jualan-hook-01",
+    "title": "10 Hook TikTok 3 Detik",
+    "category": "Jualan",
+    "description": "Ubah nama produk jadi 10 hook pembuka.",
+    "body": "Buatkan 10 hook TikTok 3 detik untuk produk: [NAMA_PRODUK]. Target: [TARGET]. Format: nomor + hook + visual yang disarankan. Gaya bahasa santai Indonesia.",
+    "tags": ["tiktok", "hook", "affiliate"],
+    "isPro": false
+  },
+  {
+    "id": "jualan-script-01",
+    "title": "Script 30 Detik Soft Selling",
+    "category": "Jualan",
+    "description": "Script tanpa teriak-teriak, cocok afiliator.",
+    "body": "Buatkan script video 30 detik untuk [NAMA_PRODUK]. Struktur: masalah 5 detik, demo 15 detik, CTA halus 10 detik. Sertakan teks on-screen.",
+    "tags": ["script", "soft-selling"],
+    "isPro": false
+  },
+  {
+    "id": "jualan-deskripsi-01",
+    "title": "Deskripsi Shopee SEO",
+    "category": "Jualan",
+    "description": "Deskripsi produk + keyword otomatis.",
+    "body": "Buatkan deskripsi Shopee untuk [NAMA_PRODUK]. Sertakan: 3 keunggulan, spesifikasi, cara pakai, garansi. Tambahkan 10 keyword di akhir.",
+    "tags": ["shopee", "seo"],
+    "isPro": false
+  },
+  {
+    "id": "jualan-wa-01",
+    "title": "Balasan WA Nolak Halus ke Closing",
+    "category": "Jualan",
+    "description": "Follow-up pembeli yang bilang mahal.",
+    "body": "Buatkan 3 variasi balasan WA untuk calon pembeli yang bilang [NAMA_PRODUK] mahal. Nada ramah, tawarkan cicilan / paket hemat / testimoni. Maks 3 kalimat per variasi.",
+    "tags": ["wa", "closing"],
+    "isPro": false
+  },
+  {
+    "id": "konten-ide-01",
+    "title": "30 Ide Konten 1 Niche",
+    "category": "Konten",
+    "description": "Kalender konten 30 hari.",
+    "body": "Buatkan 30 ide konten TikTok/IG untuk niche [NICHE]. Bagi jadi edukasi, hiburan, jualan 4:3:3. Sertakan hook per ide.",
+    "tags": ["ide", "kalender"],
+    "isPro": false
+  },
+  {
+    "id": "konten-caption-01",
+    "title": "Caption IG 3 Gaya",
+    "category": "Konten",
+    "description": "Formal, santai, lucu.",
+    "body": "Buatkan caption Instagram untuk foto [DESKRIPSI_FOTO]. Buat 3 versi: formal, santai, lucu. Tambahkan 10 hashtag relevan + CTA.",
+    "tags": ["caption", "instagram"],
+    "isPro": false
+  },
+  {
+    "id": "konten-carousel-01",
+    "title": "Carousel 7 Slide",
+    "category": "Konten",
+    "description": "Slide per slide tinggal copy.",
+    "body": "Buatkan carousel 7 slide tentang [TOPIK]. Slide 1 hook, slide 2-6 isi daging, slide 7 CTA follow. Maks 25 kata per slide.",
+    "tags": ["carousel"],
+    "isPro": false
+  },
+  {
+    "id": "skripsi-judul-01",
+    "title": "5 Judul + Rumusan Masalah",
+    "category": "Skripsi",
+    "description": "Jurusan apa pun, tinggal ganti variabel.",
+    "body": "Saya jurusan [JURUSAN], minat [MINAT]. Buatkan 5 judul skripsi kuantitatif + rumusan masalah + variabel X dan Y per judul.",
+    "tags": ["judul", "kuantitatif"],
+    "isPro": false
+  },
+  {
+    "id": "skripsi-bab1-01",
+    "title": "Kerangka Bab 1",
+    "category": "Skripsi",
+    "description": "Latar belakang sampai tujuan.",
+    "body": "Buatkan kerangka Bab 1 untuk judul: [JUDUL]. Isi: latar belakang 5 paragraf, identifikasi, batasan, rumusan, tujuan, manfaat. Bahasa akademik Indonesia.",
+    "tags": ["bab1"],
+    "isPro": false
+  },
+  {
+    "id": "skripsi-kuesioner-01",
+    "title": "Kuesioner 20 Butir",
+    "category": "Skripsi",
+    "description": "Skala Likert siap sebar.",
+    "body": "Buatkan 20 butir kuesioner skala Likert 1-5 untuk variabel [VARIABEL]. Bagi jadi 4 indikator, 5 butir per indikator. Bahasa netral.",
+    "tags": ["kuesioner", "likert"],
+    "isPro": false
+  },
+  {
+    "id": "ngantor-email-01",
+    "title": "Email Follow-up Profesional",
+    "category": "Ngantor",
+    "description": "Nagih kerjaan tanpa kelihatan galak.",
+    "body": "Buatkan email follow-up profesional untuk [KEPERLUAN] ke [NAMA_PENERIMA]. Nada sopan tegas, sertakan deadline [TANGGAL] dan next step. Maks 120 kata.",
+    "tags": ["email"],
+    "isPro": false
+  },
+  {
+    "id": "ngantor-laporan-01",
+    "title": "Laporan Mingguan Rapi",
+    "category": "Ngantor",
+    "description": "Ubah catatan acak jadi laporan.",
+    "body": "Rapikan catatan ini jadi laporan mingguan: [TEMPEL_CATATAN]. Format: done, in-progress, blocker, next week. Bahasa Indonesia formal ringkas.",
+    "tags": ["laporan"],
+    "isPro": false
+  },
+  {
+    "id": "ngantor-cv-01",
+    "title": "Bullet CV ATS",
+    "category": "Ngantor",
+    "description": "Pengalaman jadi angka prestasi.",
+    "body": "Ubah pengalaman ini jadi 5 bullet CV ATS-friendly: [TEMPEL_PENGALAMAN]. Awali kata kerja, tambahkan angka %, Rp, atau waktu. Maks 20 kata per bullet.",
+    "tags": ["cv", "ats"],
+    "isPro": false
+  },
+  {
+    "id": "jualan-pro-01",
+    "title": "Winning Angle Detector",
+    "category": "Jualan",
+    "description": "Cari 5 angle iklan dari review.",
+    "body": "Dari 10 review ini: [TEMPEL_REVIEW], petakan 5 winning angle untuk [NAMA_PRODUK]. Tiap angle: insight, hook, script 15 detik.",
+    "tags": ["angle", "iklan"],
+    "isPro": true
+  },
+  {
+    "id": "konten-pro-01",
+    "title": "Script Storytelling 60 Detik",
+    "category": "Konten",
+    "description": "Gaya ngobrol, bukan iklan.",
+    "body": "Buatkan script storytelling 60 detik tentang [PENGALAMAN]. Struktur: hook 3 detik, konflik, twist, pelajaran, CTA halus ke [PRODUK].",
+    "tags": ["storytelling"],
+    "isPro": true
+  },
+  {
+    "id": "skripsi-pro-01",
+    "title": "Parafrase Anti Turnitin",
+    "category": "Skripsi",
+    "description": "Jaga makna, ubah struktur.",
+    "body": "Parafrasekan paragraf ini jadi 3 versi akademik dengan makna sama, struktur beda: [TEMPEL_PARAGRAF]. Hindari plagiarisme, tetap sitasi [SUMBER].",
+    "tags": ["parafrase"],
+    "isPro": true
+  },
+  {
+    "id": "ngantor-pro-01",
+    "title": "SOP 1 Halaman",
+    "category": "Ngantor",
+    "description": "Kerja berulang jadi SOP.",
+    "body": "Buatkan SOP 1 halaman untuk pekerjaan: [NAMA_PEKERJAAN]. Isi: tujuan, alat, langkah 1-7, QC, eskalasi. Bahasa checklist.",
+    "tags": ["sop"],
+    "isPro": true
+  },
+  {
+    "id": "jualan-pro-02",
+    "title": "Paket Bundling Naik AOV",
+    "category": "Jualan",
+    "description": "Naikkan rata-rata belanja.",
+    "body": "Buatkan 3 paket bundling untuk [DAFTAR_PRODUK]. Tiap paket: nama, isi, harga coret, harga bundel, alasan hemat. Target naikkan AOV 30%.",
+    "tags": ["bundling"],
+    "isPro": true
+  },
+  {
+    "id": "konten-pro-02",
+    "title": "Hook Checker + Perbaikan",
+    "category": "Konten",
+    "description": "Nilai hook kamu 1-10.",
+    "body": "Nilai 5 hook ini 1-10 dari sisi rasa penasaran dan relevansi: [TEMPEL_HOOK]. Lalu tulis ulang versi 9/10 dengan alasan perbaikannya.",
+    "tags": ["hook"],
+    "isPro": true
+  },
+  {
+    "id": "ngantor-pro-02",
+    "title": "Negosiasi Gaji Halus",
+    "category": "Ngantor",
+    "description": "Script nego tanpa kaku.",
+    "body": "Buatkan script negosiasi gaji untuk posisi [POSISI] dengan pengalaman [TAHUN] tahun. Minta di angka [TARGET]. Sopan, berbasis data, ada plan B bila ditolak.",
+    "tags": ["gaji", "nego"],
+    "isPro": true
+  }
+]
